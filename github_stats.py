@@ -352,8 +352,6 @@ Languages:
                     languages = await self.languages
                     if name.lower() in exclude_langs_lower:
                         continue
-                    if name.lower() == 'jupyter notebook':
-                        continue
                     if name in languages:
                         languages[name]["size"] += lang.get("size", 0)
                         languages[name]["occurrences"] += 1
