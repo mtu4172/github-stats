@@ -91,6 +91,7 @@ For more information on inaccuracies, see issue
    - To ignore certain languages, add them (separated by commas) to a new
      secret called `EXCLUDED_LANGS`. For example, to exclude HTML and TeX you
      could set the value to `html,tex`. [List of languages](https://github.com/github-linguist/linguist/blob/master/lib/linguist/languages.yml)
+   - Note for Michael: just type 'Jupyter Notebook' to exclude it
    - To show statistics only for "owned" repositories and not forks with
      contributions, add an environment variable (under the `env` header in the
      [main
